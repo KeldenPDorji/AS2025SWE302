@@ -26,10 +26,6 @@ This project includes a comprehensive Playwright test suite with **177 automated
 | Data Validation | 13 | ✅ PASS | Data integrity & calculations |
 | Basic App Tests | 2 | ✅ PASS | Fundamental app loading |
 
-![alt text](<Screenshot 2025-08-19 at 9.18.54 PM.png>)
-
-![alt text](<Screenshot 2025-08-19 at 9.18.04 PM.png>)
-
 ### Test Files Structure
 
 ```
@@ -401,8 +397,9 @@ After completing all walkthroughs, verify:
 
 **If all items are checked ✅, the application is functioning correctly!**
 
-![Testing Results](Screenshot%202025-08-20%20at%201.58.20%20PM.png)
+![alt text](<Screenshot 2025-08-19 at 9.18.54 PM.png>)
 
+![alt text](<Screenshot 2025-08-19 at 9.18.04 PM.png>)
 ---
 
 **🔙 [Back to Project Overview](README.md)**

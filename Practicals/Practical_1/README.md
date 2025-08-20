@@ -1,4 +1,4 @@
-## SWE302 Project: Interactive Quiz Application
+## Interactive Quiz Application
 
 This repository contains a modern interactive quiz application built with React and TypeScript.
 
