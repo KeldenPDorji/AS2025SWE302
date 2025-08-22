@@ -159,7 +159,7 @@ The integration ensures seamless collaboration and keeps the team informed about
    - Clean, modern design with Tailwind CSS
    - Smooth transitions and animations
    - Intuitive user interactions
-   - Visual feedback for all actions
+   - Visual feedback for all actions.
 
 ---
 
