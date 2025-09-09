@@ -154,9 +154,8 @@ go test -run TestCalculateShippingFee -v
 # Run only the V2 shipping tests  
 go test -run TestCalculateShippingFeeV2 -v
 ```
-
 ## Demo Screenshots
-
+![alt text](<Screenshot 2025-09-09 at 9.47.26 PM.png>)
 ![alt text](<Screenshot 2025-09-09 at 9.17.10 PM.png>)
 
 ## Key Testing Principles Demonstrated
