@@ -155,6 +155,10 @@ go test -run TestCalculateShippingFee -v
 go test -run TestCalculateShippingFeeV2 -v
 ```
 
+## Demo Screenshots
+
+![alt text](<Screenshot 2025-09-09 at 9.17.10 PM.png>)
+
 ## Key Testing Principles Demonstrated
 
 1. **Black-box testing**: Tests are designed from specifications, not implementation
