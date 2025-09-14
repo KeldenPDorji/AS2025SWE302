@@ -11,6 +11,8 @@ This project demonstrates comprehensive specification-based testing techniques i
 - `shipping_v2_test.go` - Comprehensive tests for updated shipping calculator
 - `go.mod` - Go module definition
 
+<img src="https://raw.githubusercontent.com/gauravpatil97886/gauravpatil97886/main/gaurav_gif/Line.gif" alt="Animated Line" />
+
 ## Parameter Ranges Documentation
 
 ### Original Shipping Calculator (`CalculateShippingFee`)
