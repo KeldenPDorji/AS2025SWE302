@@ -6,7 +6,6 @@
 ![GitHub Actions](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?style=flat-square&logo=github-actions)
 ![Snyk](https://img.shields.io/badge/Security-Snyk-4C2B5E?style=flat-square&logo=snyk)
 ![DevSecOps](https://img.shields.io/badge/DevSecOps-Enabled-success?style=flat-square)
-![NUS-ISS](https://img.shields.io/badge/NUS--ISS-EPAT%20Programme-blue?style=flat-square)
 
 ## 📋 Project Summary
 
