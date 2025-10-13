@@ -56,60 +56,80 @@ SWE302_p5/
 ## Exercises Implemented
 
 ### Exercise 1-2: Basic CRUD Operations
-- User retrieval by ID and email
-- User creation, update, and deletion
-- User listing functionality
+CRUD operations with PostgreSQL
 
 ### Exercise 3: Advanced Queries
-- Pattern matching with ILIKE
-- User counting
-- Date-based filtering
+Pattern matching, counting, and date filtering
 
 ### Exercise 4: Transaction Testing
-- Atomic batch operations
-- Complex transaction handling
-- Rollback behavior verification
-- Concurrent access testing
+Batch operations, rollback verification, and concurrent access
 
 ### Exercise 5: Multi-Container Testing
-- Cache hit/miss scenarios
-- Cache invalidation testing
-- TTL verification
+Redis caching with cache hit/miss, invalidation, and TTL
 
 ## Test Execution
 
+### Running All Tests
 ```bash
-# Run all tests
 go test ./... -v
-
-# Run with coverage
-go test -cover ./repository
-
-# Run specific test
-go test ./repository -run TestGetByID -v
 ```
+
+**Test Output:**
+
+![Test Execution](image1.png)
+
+![All Tests Passing](image2.png)
+
+### Coverage Analysis
+```bash
+go test -cover ./repository
+```
+
+![Coverage Report](image3.png)
+
+## Test Results
+
+✅ **17 tests passing** | 83.3% coverage | PostgreSQL 15-alpine + Redis 7-alpine
+
+| Exercise | Tests |
+|----------|-------|
+| CRUD Operations | 6 tests |
+| Advanced Queries | 3 tests |
+| Transactions | 5 tests |
+| Multi-Container Caching | 3 tests |
 
 ## Key Features
 
-- **Real Database Testing**: Uses actual PostgreSQL and Redis containers
-- **Automatic Container Management**: TestContainers handles lifecycle
-- **Test Isolation**: Clean state for each test
-- **Production-Like Environment**: Same databases as production
-
-## Technical Implementation
-
-- **Unified TestMain**: Single setup for PostgreSQL and Redis containers
-- **Interface-Based Design**: DBExecutor interface for flexibility
-- **Proper Error Handling**: Comprehensive error messages
-- **Clean Architecture**: Separation of concerns
+- Real PostgreSQL and Redis containers (not mocks)
+- Automatic container lifecycle management
+- Test isolation with clean state
+- Production-like testing environment
+- Multi-container orchestration
 
 ## Learning Outcomes
 
-1. Integration testing best practices
-2. Container-based testing strategies
-3. Database transaction management
-4. Cache integration patterns
-5. Go testing frameworks
+- Integration testing with TestContainers
+- Database transaction management
+- Cache integration patterns
+- Multi-container testing strategies
+
+## Why TestContainers?
+
+| Traditional Approach | TestContainers Approach |
+|---------------------|------------------------|
+| Mock databases (not realistic) | Real PostgreSQL & Redis |
+| Shared test DB (flaky tests) | Isolated containers |
+| Manual setup/teardown | Automatic lifecycle |
+| Hard to CI/CD | Docker-based, portable |
+| Different from production | Production-like environment |
+
+## Resources
+
+- [TestContainers Go Documentation](https://golang.testcontainers.org/)
+- [PostgreSQL Module](https://golang.testcontainers.org/modules/postgres/)
+- [Redis Module](https://golang.testcontainers.org/modules/redis/)
+- [Implementation Repository](https://github.com/KeldenPDorji/SWE302_p5)
 
 ---
 
+*Part of AS2025SWE302 - Software Testing & Quality Assurance*
