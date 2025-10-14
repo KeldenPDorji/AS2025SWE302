@@ -5,6 +5,7 @@ Integration of OWASP ZAP dynamic security scanning in GitHub Actions CI/CD pipel
 ## Implementation
 
 Complete implementation available in separate repository: [cicd-demo_sq][repo]
+<img src="https://raw.githubusercontent.com/gauravpatil97886/gauravpatil97886/main/gaurav_gif/Line.gif" alt="Animated Line" />
 
 ## Overview
 

@@ -5,6 +5,7 @@ Integration of SonarCloud and Snyk security scanning in GitHub Actions CI/CD pip
 ## Implementation
 
 Complete implementation available in separate repository: [cicd-demo_sq][repo]
+<img src="https://raw.githubusercontent.com/gauravpatil97886/gauravpatil97886/main/gaurav_gif/Line.gif" alt="Animated Line" />
 
 ## Overview
 
