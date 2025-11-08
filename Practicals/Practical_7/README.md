@@ -1,40 +1,51 @@
-# 🎓 AS2025SWE302 - Software Engineering Practicals
+# SWE302 - Practicals Repository
 
-[![Course](https://img.shields.io/badge/Course-SWE302-blue)](https://github.com/KeldenPDorji/AS2025SWE302)
-[![Semester](https://img.shields.io/badge/Semester-AS2025-green)](https://github.com/KeldenPDorji/AS2025SWE302)
+This repository contains practical assignments for **SWE302 - Software Testing** course (2025).
 
-Welcome to my **Software Engineering** course repository for the **Autumn Semester 2025**.
+## 📚 Practical 7: Performance Testing with k6
+
+**Status:** ✅ Completed
+
+A comprehensive performance testing project demonstrating enterprise-grade load testing using k6 and Grafana Cloud, featuring a Dog CEO API application with 4 comprehensive test scenarios including Average-Load, Spike, Stress, and Soak testing.
+
+### 🔗 [View Practical 7 Repository](https://github.com/KeldenPDorji/p7..swe302)
 
 ---
 
-## 🌟 Practical 7 - Performance Testing with k6
+### 📸 Project Screenshots
 
-[![k6](https://img.shields.io/badge/k6-Performance%20Testing-7d64ff)](https://github.com/KeldenPDorji/p7..swe302)
-[![Next.js](https://img.shields.io/badge/Next.js-16.0-black)](https://nextjs.org/)
-[![Grafana](https://img.shields.io/badge/Grafana-Cloud-orange)](https://grafana.com/products/cloud/)
+#### Grafana Cloud Performance Dashboard
+![Performance Dashboard](https://raw.githubusercontent.com/KeldenPDorji/p7..swe302/main/performance-testing/screenshots/GRAFANA.png)
+*Complete test suite execution showing all 4 performance test scenarios*
 
-**🔗 [View Complete P7 Project Repository](https://github.com/KeldenPDorji/p7..swe302)**
+---
 
-Enterprise-grade performance testing implementation featuring:
-- 🚀 **Dog CEO API Application** - Full-stack Next.js web app with TypeScript
-- 📊 **4 Load Testing Scenarios** - Average, Spike, Stress, and Soak tests
-- ☁️ **Grafana Cloud Integration** - Cloud-based distributed testing
-- 📈 **Real-time Monitoring** - Performance dashboards and metrics
-- 🎯 **Production-Ready** - Enterprise-grade thresholds and best practices
+### Key Features
+- 🚀 **Dog CEO API Application** - Full-stack Next.js web application
+- 📊 **4 Load Testing Scenarios** - Average-Load, Spike, Stress, and Soak tests
+- ☁️ **Grafana Cloud Integration** - Enterprise-grade distributed testing
+- 📈 **Real-time Monitoring** - Performance dashboards and detailed metrics
+- 🎯 **Production-Ready Thresholds** - Industry-standard performance criteria
+- ⚡ **Modern Tech Stack** - Next.js 16, k6, TypeScript, Grafana Cloud
 
 ### Technologies Used
-- **Next.js 16** - React Framework
-- **k6** - Performance Testing
-- **Grafana Cloud** - Monitoring
-- **TypeScript** - Type Safety
-- **Tailwind CSS 4** - Styling
+- k6 (Grafana)
+- Next.js 16.0
+- Grafana Cloud
+- TypeScript
+- Dog CEO API
+- Tailwind CSS
+
+### Learning Outcomes
+- Enterprise-grade performance testing methodologies
+- k6 framework implementation and configuration
+- Grafana Cloud distributed testing platform
+- Load testing scenario design and execution
+- Performance metrics analysis and threshold definition
+- Real-world application performance optimization
 
 ---
 
-<div align="center">
-
-**🔗 [View P7 Project](https://github.com/KeldenPDorji/p7..swe302)**
-
-*Last Updated: October 31, 2025*
-
-</div>
+**Student:** Kelden P. Dorji  
+**Program:** Software Engineering  
+**Year:** 2025

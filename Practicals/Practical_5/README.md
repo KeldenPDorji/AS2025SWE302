@@ -1,135 +1,59 @@
-# Practical 5 - TestContainers Integration Testing
+# SWE302 - Practicals Repository
 
-Implementation of integration testing using TestContainers for PostgreSQL and Redis in Go.
+This repository contains practical assignments for **SWE302 - Software Testing** course (2025).
 
-## Implementation
+## 📚 Practical 5: TestContainers Integration Testing
 
-Complete implementation available in separate repository: [SWE302_p5](https://github.com/KeldenPDorji/SWE302_p5)
+**Status:** ✅ Completed
 
-## Overview
+A comprehensive integration testing project demonstrating TestContainers implementation with PostgreSQL and Redis in Go, featuring real database testing with automatic container lifecycle management and multi-container orchestration.
 
-This practical demonstrates:
-- Integration testing with TestContainers
-- PostgreSQL database testing
-- Redis caching integration
-- Full CRUD operations with advanced queries
-- Transaction testing and isolation
-- Multi-container setup
-
-## Prerequisites
-
-- Go 1.21 or higher
-- Docker Desktop running
-- ~500MB disk space for Docker images
-
-## Quick Start
-
-```bash
-# Clone the repository
-git clone https://github.com/KeldenPDorji/SWE302_p5.git
-cd SWE302_p5
-
-# Download dependencies
-go mod download
-
-# Run all tests
-go test ./... -v
-```
-
-## Project Structure
-
-```
-SWE302_p5/
-├── models/
-│   └── user.go                          # User data model
-├── repository/
-│   ├── user_repository.go               # Basic CRUD operations
-│   ├── user_repository_test.go          # Integration tests (Exercises 1-4)
-│   ├── cached_user_repository.go        # Redis caching layer
-│   └── cached_user_repository_test.go   # Multi-container tests (Exercise 5)
-├── migrations/
-│   └── init.sql                         # Database schema
-├── go.mod                               # Dependencies
-└── README.md                            # Project documentation
-```
-
-## Exercises Implemented
-
-### Exercise 1-2: Basic CRUD Operations
-CRUD operations with PostgreSQL
-
-### Exercise 3: Advanced Queries
-Pattern matching, counting, and date filtering
-
-### Exercise 4: Transaction Testing
-Batch operations, rollback verification, and concurrent access
-
-### Exercise 5: Multi-Container Testing
-Redis caching with cache hit/miss, invalidation, and TTL
-
-## Test Execution
-
-### Running All Tests
-```bash
-go test ./... -v
-```
-
-**Test Output:**
-
-![Test Execution](image1.png)
-
-![All Tests Passing](image2.png)
-
-### Coverage Analysis
-```bash
-go test -cover ./repository
-```
-
-![Coverage Report](image3.png)
-
-## Test Results
-
-✅ **17 tests passing** | 83.3% coverage | PostgreSQL 15-alpine + Redis 7-alpine
-
-| Exercise | Tests |
-|----------|-------|
-| CRUD Operations | 6 tests |
-| Advanced Queries | 3 tests |
-| Transactions | 5 tests |
-| Multi-Container Caching | 3 tests |
-
-## Key Features
-
-- Real PostgreSQL and Redis containers (not mocks)
-- Automatic container lifecycle management
-- Test isolation with clean state
-- Production-like testing environment
-- Multi-container orchestration
-
-## Learning Outcomes
-
-- Integration testing with TestContainers
-- Database transaction management
-- Cache integration patterns
-- Multi-container testing strategies
-
-## Why TestContainers?
-
-| Traditional Approach | TestContainers Approach |
-|---------------------|------------------------|
-| Mock databases (not realistic) | Real PostgreSQL & Redis |
-| Shared test DB (flaky tests) | Isolated containers |
-| Manual setup/teardown | Automatic lifecycle |
-| Hard to CI/CD | Docker-based, portable |
-| Different from production | Production-like environment |
-
-## Resources
-
-- [TestContainers Go Documentation](https://golang.testcontainers.org/)
-- [PostgreSQL Module](https://golang.testcontainers.org/modules/postgres/)
-- [Redis Module](https://golang.testcontainers.org/modules/redis/)
-- [Implementation Repository](https://github.com/KeldenPDorji/SWE302_p5)
+### 🔗 [View Practical 5 Repository](https://github.com/KeldenPDorji/SWE302_p5)
 
 ---
 
-*Part of AS2025SWE302 - Software Testing & Quality Assurance*
+### 📸 Project Screenshots
+
+#### Test Execution - Container Initialization
+![Test Execution](https://raw.githubusercontent.com/KeldenPDorji/SWE302_p5/main/image1.png)
+*TestContainers initializing PostgreSQL and Redis containers with successful connections*
+
+#### Complete Test Suite Results
+![All Tests Passing](https://raw.githubusercontent.com/KeldenPDorji/SWE302_p5/main/image2.png)
+*All 17 tests passing successfully covering CRUD, advanced queries, transactions, and caching*
+
+#### Code Coverage Report
+![Coverage Report](https://raw.githubusercontent.com/KeldenPDorji/SWE302_p5/main/image3.png)
+*Achieved 83.3% code coverage across all repository tests*
+
+---
+
+### Key Features
+- 🐳 **TestContainers Integration** - Real PostgreSQL and Redis containers (not mocks)
+- 🗄️ **Full CRUD Operations** - Complete database interaction testing
+- 🔄 **Advanced Transaction Testing** - Batch operations, rollback verification, concurrent access
+- 🚀 **Multi-Container Setup** - PostgreSQL + Redis caching integration
+- 📊 **High Test Coverage** - 83.3% code coverage with 17 comprehensive tests
+- ⚙️ **Automatic Lifecycle** - Container setup and teardown management
+
+### Technologies Used
+- Go 1.21
+- TestContainers
+- PostgreSQL 15-alpine
+- Redis 7-alpine
+- Docker
+- Go testing framework
+
+### Learning Outcomes
+- Integration testing with TestContainers framework
+- Real database testing vs mocking strategies
+- Multi-container orchestration and management
+- Database transaction management and isolation
+- Cache integration patterns and testing
+- Production-like testing environment setup
+
+---
+
+**Student:** Kelden P. Dorji  
+**Program:** Software Engineering  
+**Year:** 2025
