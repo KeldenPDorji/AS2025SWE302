@@ -1,166 +1,84 @@
-## Interactive Quiz Application
+# Practical 1: Unit Testing Fundamentals
 
-This repository contains a modern interactive quiz application built with React and TypeScript.
+**Course:** SWE302 - Software Testing | **Status:** ✅ Completed
 
-**🔗 Source Code:** [View on GitHub](https://github.com/KeldenPDorji/reactquiz)
+An interactive React quiz application demonstrating comprehensive unit testing practices with Playwright, featuring 177 automated tests and complete end-to-end coverage.
 
-**📋 [View Testing Documentation](TESTING.md)**
-
-### Project Overview
-
-This project is a real-time, interactive quiz application designed to test programming knowledge. The application features a modern, responsive interface with comprehensive testing and demonstrates advanced software design principles and full-stack development skills.
-
-### Key Features
-
-- **Interactive Quiz Flow**: 10 programming questions with immediate feedback
-- **Timer System**: 30-second countdown with automatic termination
-- **Responsive Design**: Mobile-first approach, adapts to all screen sizes
-- **Real-time Scoring**: Live score tracking with percentage calculation
-- **Modern UI/UX**: Clean design with smooth animations and visual feedback
-- **Comprehensive Testing**: 177 automated tests covering all functionality
+## 🔗 Project Repository
+**[View Source Code →](https://github.com/KeldenPDorji/reactquiz)**
 
 ---
 
-## Setup Instructions
+## �️ Application Preview
 
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (v18 or newer recommended)
-- [npm](https://www.npmjs.com/) (comes with Node.js)
-
-### Installation
-
-1. **Install dependencies:**
-
-```bash
-npm install
-```
-
-2. **Start the development server:**
-
-```bash
-npm run dev
-```
-
-The app will be available at [http://localhost:5173](http://localhost:5173) by default.
-
-3. **Build for production:**
-
-```bash
-npm run build
-```
-
-4. **Preview the production build:**
-
-```bash
-npm run preview
-```
-
-5. **Lint the codebase:**
-
-```bash
-npm run lint
-```
-
-## Testing
-
-This project includes comprehensive end-to-end tests using Playwright with **177 automated tests** covering all functionality.
-
-**📋 [View Complete Testing Documentation](TESTING.md)**
-
-### Quick Test Commands
-
-1. **Start the development server:**
-```bash
-npm run dev
-```
-
-2. **Run all tests (in a separate terminal):**
-```bash
-npm run test
-```
-
-3. **Run tests with UI mode:**
-```bash
-npm run test:ui
-```
-
-4. **View test reports:**
-```bash
-npm run test:report
-```
-
-### Docker Setup (Alternative)
-
-If you prefer to use Docker, you can run the application in a container:
-
-1. **Build the Docker image:**
-
-```bash
-docker build -t quiz-app .
-```
-
-2. **Run the container:**
-
-```bash
-docker run -p 3000:3000 quiz-app
-```
-
-The app will be available at [http://localhost:3000](http://localhost:3000).
-
-### Slack Integration
-
-This project is integrated with Slack for continuous integration notifications:
-
-- **GitHub App Integration**: GitHub app has been added to Slack workspace
-- **Repository Subscription**: This repository is subscribed for notifications
-- **Push Notifications**: Successful git pushes trigger "success" notifications in Slack
-- **Real-time Updates**: Team members receive instant updates on code changes and deployments
-
-The integration ensures seamless collaboration and keeps the team informed about project progress.
+![Quiz Application Interface](PNG%20image.png)
+*Interactive quiz application with modern React UI and real-time feedback*
 
 ---
 
-## Architecture & Technical Details
+## ✅ Test Results Summary
 
-### Tech Stack
+### ✅ **All Tests Passing: 177/177**
 
-- **Frontend**: React 19, TypeScript
-- **Styling**: Tailwind CSS 4.0
-- **Icons**: Lucide React
-- **Build Tool**: Vite 6.1
-- **Testing**: Playwright
-- **Linting**: ESLint 9.19
+This project now includes a comprehensive Playwright test suite with **177 automated tests** covering all functionality:
 
-### Key Features Implemented
+| Test Category | Tests | Status | Coverage |
+|---------------|-------|--------|----------|
+| Quiz Flow Tests | 10 | ✅ PASS | Core quiz functionality |
+| Timer Tests | 7 | ✅ PASS | Timer countdown & expiry |
+| Game State Tests | 7 | ✅ PASS | State management |
+| UI/UX Tests | 10 | ✅ PASS | Responsive design & feedback |
+| Edge Cases | 10 | ✅ PASS | Error handling & rapid interactions |
+| Data Validation | 13 | ✅ PASS | Data integrity & calculations |
+| Basic App Tests | 2 | ✅ PASS | Fundamental app loading |
 
-1. **Interactive Quiz Flow**
-   - 10 React/programming questions
-   - Multiple choice answers (4 options each)
-   - Immediate feedback on selection
-   - Automatic question progression
+### Cross-Browser Testing
+| Browser | Engine | Status |
+|---------|--------|--------|
+| **Chrome/Edge** | Chromium | ✅ **PASS** |
+| **Firefox** | Gecko | ✅ **PASS** |
+| **Safari** | WebKit | ✅ **PASS** |
 
-2. **Timer System**
-   - 30-second countdown per quiz session
-   - Visual timer display
-   - Automatic quiz termination when time expires
-
-3. **Scoring System**
-   - Real-time score tracking
-   - Final score calculation and display
-   - Percentage accuracy calculation
-
-4. **Responsive Design**
-   - Mobile-first approach
-   - Adapts to different screen sizes
-   - Touch-friendly interface
-
-5. **Modern UI/UX**
-   - Clean, modern design with Tailwind CSS
-   - Smooth transitions and animations
-   - Intuitive user interactions
-   - Visual feedback for all actions.
+### Test Coverage Highlights
+- 🎯 **Quiz Mechanics:** Question display, answer selection, scoring logic
+- ⏱️ **Timer System:** 30-second countdown with automatic termination
+- 📱 **Responsive Design:** Mobile, tablet, and desktop layout adaptation
+- 🎨 **Visual Feedback:** Answer highlighting and state indicators
+- 🔄 **State Management:** Quiz restart and question progression
+- ⚡ **Performance:** Rapid interaction protection and optimization
+- ♿ **Accessibility:** Keyboard navigation and focus management
+- 🛡️ **Data Integrity:** Question validation and calculation accuracy
 
 ---
 
-**📋 [View Complete Testing Documentation](TESTING.md)**
+## 🚀 Key Features
+
+| Feature | Description |
+|---------|-------------|
+| 🎯 **Interactive Quiz** | 10 programming questions with instant feedback |
+| ⏱️ **Smart Timer** | 30-second countdown with auto-termination |
+| 📱 **Responsive UI** | Mobile-first design adapting to all devices |
+| 🧪 **Complete Testing** | 177 automated Playwright tests (100% pass rate) |
+| 📊 **Live Scoring** | Real-time score tracking with percentage display |
+| ⚡ **Modern Stack** | React 19, TypeScript, Vite, Tailwind CSS |
+
+## 🛠️ Technology Stack
+
+- **Frontend:** React 19, TypeScript
+- **Styling:** Tailwind CSS 4.0
+- **Testing:** Playwright
+- **Build Tool:** Vite 6.1
+- **Code Quality:** ESLint 9.19
+
+## 🎓 Learning Outcomes
+
+- ✅ **Unit Testing Fundamentals** with modern frameworks
+- ✅ **End-to-End Automation** using Playwright
+- ✅ **Test Coverage Analysis** and comprehensive reporting
+- ✅ **React Testing Strategies** for interactive applications
+- ✅ **Edge Case Testing** and robust error handling
+- ✅ **Cross-Browser Compatibility** validation
+
+---
+
+**Student:** Kelden P. Dorji | **Program:** Software Engineering | **Year:** 2025

@@ -15,15 +15,15 @@ A comprehensive integration testing project demonstrating TestContainers impleme
 ### 📸 Project Screenshots
 
 #### Test Execution - Container Initialization
-![Test Execution](https://raw.githubusercontent.com/KeldenPDorji/SWE302_p5/main/image1.png)
+![Test Execution](image1.png)
 *TestContainers initializing PostgreSQL and Redis containers with successful connections*
 
 #### Complete Test Suite Results
-![All Tests Passing](https://raw.githubusercontent.com/KeldenPDorji/SWE302_p5/main/image2.png)
+![All Tests Passing](image2.png)
 *All 17 tests passing successfully covering CRUD, advanced queries, transactions, and caching*
 
 #### Code Coverage Report
-![Coverage Report](https://raw.githubusercontent.com/KeldenPDorji/SWE302_p5/main/image3.png)
+![Coverage Report](image3.png)
 *Achieved 83.3% code coverage across all repository tests*
 
 ---
